@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 0 0;
  	text-align: center;
 }
+h1 {
+	padding-bottom: 20px;
+}
 h3 { /*used in footer widgets */
 	color:#7a0000;
 	text-transform: uppercase;
