@@ -15,4 +15,5 @@
             <?php get_sidebar(); ?>
           </div><!--/ .span -->
         </div><!--/ .row -->
+      <?php include("widget-footer.php"); ?>
       <?php get_footer(); ?>

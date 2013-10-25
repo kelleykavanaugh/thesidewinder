@@ -20,6 +20,15 @@ if (function_exists("register_sidebar")) {
     'after_title' => '</h2>',
 ));
 }
+if (function_exists("register_sidebar")) {
+  register_sidebar(array(
+    'name' => 'widget-footer',
+	'before_widget' => '<div class="span4">',
+	'after_widget'  => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+));
+}
 /* custom header */
 $args = array(
 	'width'         => 1200,
@@ -30,7 +39,4 @@ $args = array(
 );
 add_theme_support( 'custom-header', $args );
 /* end custom header */
-
-if ( function_exists( 'soliloquy_slider' ) ) soliloquy_slider( '79' );
-
 ?>

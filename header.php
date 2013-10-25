@@ -21,7 +21,7 @@
   </head>
 <body>
     <div class="container-fluid">
-      <div class="blogtitle"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></div>
+      <div class="blogtitle"><?php bloginfo('name'); ?></div>
       <div class="description"><?php bloginfo('description'); ?></div>
 
 <!-- NAVBAR -->

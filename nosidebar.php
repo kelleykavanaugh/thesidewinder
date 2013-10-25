@@ -14,4 +14,5 @@
           <!-- End the Loop -->
           </div><!--/ .span -->
         </div><!--/ .row -->
+      <?php include("widget-footer.php"); ?>
       <?php get_footer(); ?>
