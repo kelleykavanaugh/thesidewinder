@@ -21,7 +21,6 @@
   </head>
 <body>
     <div class="container-fluid">
-      <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
       <div class="blogtitle"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></div>
       <div class="description"><?php bloginfo('description'); ?></div>
 
