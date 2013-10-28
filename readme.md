@@ -17,9 +17,9 @@ Some "features" of this theme (current version):
 ~ Powered by the wonderful Google Calendar Events Plugin (http://rhanney.co.uk/plugins/google-calendar-events/) (Some of this plugins features are modified in the style.css sheet for the theme)
 
 ~ Powered by Soliloquy Lite (http://soliloquywp.com/) for the slider on the mainpage. To use your own slider, exchange this code in index.php with your Soliloquy number:
-'''html
+```html
 <?php if ( function_exists( 'soliloquy_slider' ) ) soliloquy_slider( '79' ); ?>
-'''
+```
 
 ~ The 3 column footer is using Bootstraps "span4" class, and will only support 3 widgets.
 
