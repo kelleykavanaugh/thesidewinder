@@ -22,7 +22,6 @@
 <body>
     <div class="container-fluid">
       <div class="blogtitle"><?php bloginfo('name'); ?></div>
-      <div class="description"><?php bloginfo('description'); ?></div>
 
 <!-- NAVBAR -->
       <div class="navbar">
