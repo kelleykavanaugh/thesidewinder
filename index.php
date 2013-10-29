@@ -1,6 +1,6 @@
     <?php get_header(); ?>
       <div id="slider">
-      <?php if ( function_exists( 'soliloquy_slider' ) ) soliloquy_slider( '79' ); ?>
+      <?php if ( function_exists( 'soliloquy_slider' ) ) soliloquy_slider( '5' ); ?>
       </div>
       <div class="row-fluid">
         <div class="span8">
